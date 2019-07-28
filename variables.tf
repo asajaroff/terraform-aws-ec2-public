@@ -1,6 +1,7 @@
 
 variable "namespace" {
   description = "Namespace for the application, e.g. 'product' or 'application'"
+  default = "ns"
 }
 variable "application" {
   description = "Application name, e.g. 'app' or 'solution'"
